@@ -1,0 +1,68 @@
+body{
+padding: 0;
+margin: 0;
+}
+
+.black{
+  background-color: black;
+}
+
+.hover{
+width:30%;
+text-align: center;
+border-top:1px solid black;
+}
+
+.hover:hover{
+opacity:0.8;
+cursor: pointer;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+.expCards{
+padding-bottom: 30px;
+}
+#greyInfo{
+padding: 48px;
+}
+#johnDoe{
+padding-left: 90px;
+}
+#blackSection{
+text-align: center;
+}
+#footer{
+text-align: center;
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  #johnDoe{
+  padding-left: 0;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  #greyInfo{
+  padding: 23px;
+  }
+  #blackSection{
+  padding: 3.7px;
+  }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+#greyInfo{
+padding: 48px;
+}
+#blackSection{
+padding: 8px;
+}
+#footer{
+text-align: left;
+}
+}
