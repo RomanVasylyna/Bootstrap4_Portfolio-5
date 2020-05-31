@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Project#5 Portfolio</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+<div class="row no-gutters text-white">
+
+<!--Image Column!-->
+<div class="col-lg-4">
+  <img src="img/person1.jpg" alt="" class="img-fluid">
+</div>
+
+<!--Big Multiple Column!-->
+<div class="col-lg-8">
+  <div class="d-flex flex-row bg-dark justify-content-between align-items-center" id="greyInfo">
+    <h1 class="display-4" id="johnDoe">John Doe</h1>
+    <a href="http://twitter.com" class="text-white d-sm-none d-md-block">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="http://facebook.com" class="text-white d-sm-none d-md-block">
+      <i class="fab fa-facebook"></i>
+    </a>
+    <a href="http://instagram.com" class="text-white d-sm-none d-md-block">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://github.com/RomanVasylyna" class="text-white d-sm-none d-md-block">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+
+
+<!--Black Section!-->
+  <div class="d-flex flex-column black" id="blackSection">
+    <p class="pt-3 pl-2">Experienced Full Stack Web Developer</p>
+  </div>
+
+<!--Colored Squares!-->
+  <div class="d-flex flex-row align-items-stretch">
+
+  <div class="bg-primary p-4 hover square-close" data-toggle="collapse" data-target="#homeSection">
+      <i class="fas fa-home fa-2x d-block"></i>
+      <p class="d-sm-none d-md-none d-lg-block">Home</p>
+  </div>
+
+  <div class="bg-success p-4 hover square-close" data-toggle="collapse" data-target="#resumeSection">
+      <i class="fas fa-graduation-cap fa-2x d-block"></i>
+      <p class="d-sm-none d-md-none d-lg-block">Resume</p>
+  </div>
+
+  <div class="bg-warning p-4 hover square-close" data-toggle="collapse" data-target="#workSection">
+      <i class="fas fa-folder-open fa-2x d-block"></i>
+      <p class="d-sm-none d-md-none d-lg-block">Work</p>
+  </div>
+
+  <div class="bg-danger p-4 hover square-close" data-toggle="collapse" data-target="#contactSection">
+      <i class="fas fa-envelope fa-2x d-block"></i>
+      <p class="d-sm-none d-md-none d-lg-block">Contact</p>
+  </div>
+
+  </div>
+
+
+    </div>
+    </div>
+
+     <!--Collapse Sections!-->
+
+     <!--1) Home Section!-->
+    <div class="collapse show" id="homeSection">
+    <div class="row text-white no-gutters">
+      <div class="col bg-primary p-5">
+       <h2>Welcome To My Page</h2>
+     <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, ut!</p>
+      </div>
+    </div>
+
+    <div class="row no-gutters">
+      <div class="col pt-4 pl-4">
+        <h3>My Skills</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus ea excepturi officia quisquam atque eos.</p>
+        <hr>
+      </div>
+    </div>
+
+    <div class="row no-gutters pb-5">
+      <div class="col p-4">
+        <h3>HTML 5</h3>
+        <div class="progress">
+       <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+
+        <h3 class="pt-2">CSS 3</h3>
+        <div class="progress">
+       <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+
+        <h3 class="pt-2">JavaScript</h3>
+        <div class="progress">
+       <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+
+        <h3 class="pt-2">PHP</h3>
+        <div class="progress">
+       <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+
+        <h3 class="pt-2">Python</h3>
+        <div class="progress">
+       <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+
+<!--Resume Section!-->
+<div class="collapse" id="resumeSection">
+
+ <div class="row no-gutters text-white">
+ <div class="col p-5 bg-success">
+ <h3>My Resume</h3>
+ <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, ut!</p>
+ </div>
+ </div>
+
+  <div class="row no-gutters">
+  <div class="col p-4">
+  <h3>Where Have I Worked?</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque similique saepe inventore rem vitae esse.</p>
+  </div>
+  </div>
+
+  <div class="row no-gutters">
+  <div class="col-lg-4 expCards">
+  <div class="card">
+  <div class="card-body">
+  <h4>Devmasters</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, magnam.</p>
+  <p class="text-white p-2 bg-dark">Position: Full Stack Developer</p>
+  <p class="text-white p-2 bg-dark">Phone: (444) 444-4444</p>
+  </div>
+  <div class="card-footer">
+    <p class="text-muted font-weight-bold">Dates: 2015 - 2018</p>
+  </div>
+  </div>
+  </div>
+
+  <div class="col-lg-4 expCards">
+  <div class="card">
+  <div class="card-body">
+  <h4>123 Designs</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, magnam.</p>
+  <p class="text-white p-2 bg-dark">Position: Web Designer</p>
+  <p class="text-white p-2 bg-dark">Phone: (222) 222-2222</p>
+  </div>
+  <div class="card-footer">
+    <p class="text-muted font-weight-bold">Dates: 2013 - 2015</p>
+  </div>
+  </div>
+  </div>
+
+  <div class="col-lg-4 expCards">
+  <div class="card">
+  <div class="card-body">
+  <h4>Web Designer Pros</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, magnam.</p>
+  <p class="text-white p-2 bg-dark">Position: Web Designer</p>
+  <p class="text-white p-2 bg-dark">Phone: (333) 333-3333</p>
+  </div>
+  <div class="card-footer">
+    <p class="text-muted font-weight-bold">Dates: 2010 - 2013</p>
+  </div>
+  </div>
+  </div>
+
+
+
+  </div>
+
+
+    </div>
+
+
+    <!--Work Section!-->
+    <div class="collapse" id="workSection">
+    <div class="row no-gutters text-white">
+    <div class="col bg-warning p-5">
+    <h3>My Work</h3>
+    <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, ut!</p>
+    </div>
+    </div>
+
+    <div class="row no-gutters">
+      <div class="col p-4">
+        <h3>What Have I Built?</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nostrum repudiandae debitis, nam iste amet.</p>
+      </div>
+    </div>
+
+    <!--Images!-->
+    <div class="row no-gutters pl-2 pr-2">
+      <div class="col-md-3">
+        <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox">
+          <img src="https://unsplash.it/600.jpg?image=252" alt="" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox">
+          <img src="https://unsplash.it/600.jpg?image=253" alt="" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox">
+          <img src="https://unsplash.it/600.jpg?image=254" alt="" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox">
+          <img src="https://unsplash.it/600.jpg?image=255" alt="" class="img-fluid">
+        </a>
+      </div>
+    </div>
+
+    <div class="row no-gutters mb-5 pl-2 pr-2">
+      <div class="col-md-3">
+        <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox">
+          <img src="https://unsplash.it/600.jpg?image=256" alt="" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="https://unsplash.it/1200/768.jpg?image=257" data-toggle="lightbox">
+          <img src="https://unsplash.it/600.jpg?image=257" alt="" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="https://unsplash.it/1200/768.jpg?image=258" data-toggle="lightbox">
+          <img src="https://unsplash.it/600.jpg?image=258" alt="" class="img-fluid">
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="https://unsplash.it/1200/768.jpg?image=259" data-toggle="lightbox">
+          <img src="https://unsplash.it/600.jpg?image=259" alt="" class="img-fluid">
+        </a>
+      </div>
+    </div>
+
+
+    </div>
+
+
+    <!--Contact!-->
+    <div id="contactSection" class="collapse">
+    <div class="row no-gutters">
+    <div class="col p-5 bg-danger text-white">
+      <h3>Contact</h3>
+      <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, ut!</p>
+    </div>
+    </div>
+
+    <div class="row no-gutters">
+    <div class="col p-4">
+      <h3>Get in touch</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, ut!</p>
+      <form>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+          <span class="input-group-text text-white bg-danger p-3">
+            <i class="fas fa-user"></i>
+          </span>
+          </div>
+          <input type="text" class="form-control form-control-lg bg-dark text-white" placeholder="Name">
+        </div>
+
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+          <span class="input-group-text text-white bg-danger p-3">
+            <i class="fas fa-envelope"></i>
+          </span>
+          </div>
+          <input type="email" class="form-control form-control-lg bg-dark text-white" placeholder="Email">
+        </div>
+
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+          <span class="input-group-text text-white bg-danger p-3">
+            <i class="fas fa-pencil-alt"></i>
+          </span>
+          </div>
+          <textarea name="name" rows="3" cols="80" class="form-control bg-dark text-white" placeholder="Message"></textarea>
+        </div>
+
+        <button class="btn btn-danger btn-lg form-control" id="submitBtn">Submit</button>
+
+
+      </form>
+    </div>
+    </div>
+    </div>
+
+
+
+
+    <!--Footer!-->
+    <div class="row no-gutters bg-dark text-white p-5" id="footer">
+     <div class="col">
+       <button class="btn btn-outline-light download"><i class="fas fa-cloud pr-2"></i>Download Resume</button>
+     </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+<script src="javascript.js"></script>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+<script>
+$('.square-close').click(function () {
+  $('.collapse').collapse('hide');
+});
+
+$(document).on('click', '[data-toggle="lightbox"]', function (e) {
+  e.preventDefault();
+  $(this).ekkoLightbox();
+});
+</script>
+</body>
+</html>
